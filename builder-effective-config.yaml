@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.janez.electron-quick-start
+linux:
+  target:
+    - target: deb
+      arch:
+        - armv7l
+electronVersion: 10.1.1
